@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: linear-gradient(105.54deg, #F24F4F -2.93%, #FFA895 72.14%);
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+    }
+
+    header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+    }
+
+    swiper-container {
+      width: 400px;
+      height: 500px;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    header {
+      padding: 40px 155px;
+    }
+
+    .group {
+      display: flex;
+      align-items: center;
+      gap: 108px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: rgb(28, 20, 21);
+    }
+
+    nav {
+      display: flex;
+      gap: 90px;
+    }
+
+    #btn {
+      border-radius: 50px;
+      width: 140px;
+      height: 40px;
+      background: rgb(28, 20, 21);
+      color: white;
+    }
+
+    h1 {
+      color: rgb(255, 255, 255);
+      font-family: Sofia Sans;
+      font-size: 76px;
+      font-weight: 900;
+      line-height: 137%;
+      letter-spacing: -1%;
+      text-align: left;
+      padding-top: 20px;
+
+    }
+
+    #hero .container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    p {
+      color: rgba(28, 20, 21, 0.8);
+      font-family: Poppins;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 36px;
+      letter-spacing: 0%;
+      text-align: left;
+      width: 613px;
+      height: 138px;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+    }
+
+    h3 {
+      color: rgb(255, 255, 255);
+      font-family: Poppins;
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 137%;
+      letter-spacing: -1%;
+      text-align: left;
+      margin-top: -48px;
+    }
+    .img1{
+      margin-top: -69px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="./image.png" alt="" width="123" height="51">
+      <div class="group">
+        <nav>
+          <a href="#">Shop</a>
+          <a href="#">Brands</a>
+          <a href="#">Contact us</a>
+        </nav>
+        <button id="btn">Sign up</button>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <div class="group2">
+        <div class="group3">
+          <div class="box">
+            <h1>Exquisite Watches</h1>
+            <h2><span style="color: white; font-size: 40px;">Choose Luxury</span>, <span
+                style="color: black; font-size: 40px;">Choose Us</span></h2>
+          </div>
+          <p>Discover the Perfect Watch for Every Occasion and Elevate Your Style with Timeless Elegance and Precision
+            Craftsmanship - watch</p>
+          <h3>$430.00</h3>
+        </div>
+        <img class="img1" src="./Frame 6.png" alt="">
+      </div>
+
+
+      <swiper-container class="mySwiper" navigation="true">
+        <swiper-slide class="swiper-slide">
+          <img src="./Frame 27.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="swiper-slide2">
+          <img src="./Frame 26.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="swiper-slide3">
+          <img src="./Frame 25.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="swiper-slide4">
+          <img src="./Frame 24.png" alt="">
+        </swiper-slide>
+      </swiper-container>
+    </div>
+  </section>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
